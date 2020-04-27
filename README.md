@@ -29,8 +29,8 @@
 <hr>
 <br>
 <h3>Buttons</h3>
-<p>We can use an a, button and input tag and apply the class:<br>
-  <em>btn btn-success btn-xs active<em>
+<p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
+  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active<em>
 </p>
   
    
