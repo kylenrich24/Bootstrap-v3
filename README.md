@@ -46,9 +46,7 @@
 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-<div class="container"
+<div class="container"> //we put the jumbotron in a container that has auto margin to center
 <div class="jumbotron">
 //everything we put here will be in the jumbotron
 <h1>Hello There</h1>
