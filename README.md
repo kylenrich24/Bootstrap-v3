@@ -57,8 +57,9 @@
     //everything we put here will be in the jumbotron
     <h1>Hello There</h1>
     <button class="btn btn-success bn-lg">Click Me</button>
-   </div>
+  </div>
 </div>
+
 ```
 
 <br>
@@ -66,12 +67,30 @@
 <h3>Forms</h3>
 
 ```javascript
-<div class="container"> //we put the jumbotron in a container that has auto margin to center
-  <div class="jumbotron">
-    //everything we put here will be in the jumbotron
-    <h1>Hello There</h1>
-    <button class="btn btn-success bn-lg">Click Me</button>
-   </div>
-</div>
+<!-- .form-group and .form-control --!>
+<form>
+  <div class="form-group"> //we put every block in a form-group
+   <label for="id">Email</label>
+   <input type="email" class="form-control" id="id">
+  </div>
+  <div class="form-group"> //we put every block in a form-group
+    <label for="id">Password</label>
+    <input type="password" class="form-control" id="id">
+  </div>
+</form>
+
+<!-- in-line form --!>
+<form class="in-line">  //gotta add this 
+  <div class="form-group"> //we put every block in a form-group
+    <label for="id">Email</label>
+    <input type="email" class="form-control" id="id">
+  </div>
+  <div class="form-group"> //we put every block in a form-group
+    <label for="id">Password</label>
+    <input type="password" class="form-control" id="id">
+  </div>
+</form>
 ```
+
+
 
