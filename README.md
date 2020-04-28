@@ -161,6 +161,7 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 <p>DOCS: https://getbootstrap.com/docs/3.4/css/#grid</p>
 <br>
 <p><em>12</em>. Every container in bootstrap can be divided into 12 different columns. Using the Grid System we can pick how many of those 12 units each of our elements should take up.  </p>
+<br>
 
 <img src="https://miro.medium.com/max/2342/1*6frm0pq5VjPcc71EqH7cKw.png" height="300" width="550"/>
 
@@ -203,7 +204,7 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 ```
 
 <h3>Making the Grid Responsive</h3>
-<p><strong>col-lg-6</strong> There are 4 sizes we can use. We can specify layout/ratios in each of these sizes. We have xs, sm, md, lg. </p>
+<p><strong>col-lg-6.</strong> There are 4 sizes we can use. We can specify layout/ratios in each of these sizes. We have xs, sm, md, lg. </p>
 
 
 ```javascript
