@@ -41,8 +41,16 @@
 <br>
 <h3>Jumbotron</h3>
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
-<p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
-  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active<em>
+<p>Jumbotron takes up 100% of whatever container it's inside of.</p>
+<pre><code>
+<div class="container"> //we're putting the jumbotron in a container, it has auto margin to center
+  <div class="jumbotron">
+    //whatever we put here will be part of the jumbotron
+    <h1>Jumbotron</h1>
+    <button class="btn btn-success btn-lg">Learn More</button>
+  </div>
+</div>
+   </code></pre>
 </p>
   
    
