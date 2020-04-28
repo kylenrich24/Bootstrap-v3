@@ -35,7 +35,13 @@
 <h3>Buttons</h3>
 <p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:</p>
 ```javascript
-<button class="btn btn-danger btn-lg">Click Me</button>
+<div class="container"> //we put the jumbotron in a container that has auto margin to center
+  <div class="jumbotron">
+    //everything we put here will be in the jumbotron
+    <h1>Hello There</h1>
+    <button class="btn btn-success bn-lg">Click Me</button>
+   </div>
+</div>
 ```
     
 <br>
