@@ -150,14 +150,20 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 </div>
 ```
 
+<br>
+<br>
 <hr>
+<br>
+<br>
 
 <h2>The Grid System</h2>
 <p>Some consider that most people use Bootstrap for the Grid System. It acts like a skeleton of our entire application. It enables us to easily add structure and layout to our application. For instance we can say that we want our application to take up 100% of our screen, then we can also say that we want our components to take 25% of the screen and take 50% when we hit the mobile size.</p>
 <p>DOCS: https://getbootstrap.com/docs/3.4/css/#grid</p>
 <br>
 <p><strong>12</strong>. Every container in bootstrap can be divided into 12 different columns. Using the Grid System we can pick how many of those 12 units each of our elements should take up.  </p>
-<img href="https://www.bitdegree.org/learn/storage/media/images/bootstrap-grid-system.o.png" height="300" width="450"/>
+
+<img href="https://miro.medium.com/max/2342/1*6frm0pq5VjPcc71EqH7cKw.png" height="300" width="450"/>
+
 <p>Every time we want to use a Bootstrap grid, we use a container.</p>
 
 
