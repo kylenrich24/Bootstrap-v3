@@ -115,7 +115,38 @@
 </nav>
 ```
 
-To implement actions include the javascript cdn
+To implement actions/features include jquery cdn first and then the bootstrap javascript cdn because it relies on jquery. (This already done in <em>There are 2 ways to use Bootstrap</em>
+
+```javascript
+// including a hamburger
+// hiding our items to a humber in mobile version
+<nav class="navbar navbar-default"> //navbar
+<div class="container">  //putting all the items in container
+  <div class="navbar-header"> //first item 
+    // implementing the hamburger icon, must be put before the navbar header
+    // pay attention to data-target attribute, the value we set to it is the items we're going to collapse 
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target-"#bs-nav-demo" aria-        expanded="false">
+      // each span is just drawing the bars in our icon
+      <span class="sr-only">Toggle Navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="#" class="navbar-header">Koffee</a>
+  </div>
+//collapsible items start here
+<div class="collapse navbar-collapse" id="bs-nav-demo"> //whatever we put inside here will be collapsible by the burger, this is targetted by our burger component/icon, see id
+  // we're putting our items here
+  <ul class="nav navbar-nav"> //items
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right"> //items to the left
+    <li><a href="#">Sign In</a></li>
+    <li><a href="#">Sign Up</a></li>
+  </ul>
+</div>
+```
 
 
 
