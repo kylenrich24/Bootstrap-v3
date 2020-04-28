@@ -100,8 +100,8 @@
 ```javascript
 <nav class="navbar navbar-default"> //navbar
 <div class="container">  //putting all the items in container
-  <div class="navbar-header"> //first item 
-    <a href="#" class="navbar-header">Koffee</a>
+  <div class="navbar-header"> //main item 
+    <a href="#" class="navbar-header">Koffee</a> //first item
   </div>
   <ul class="nav navbar-nav"> //items
     <li><a href="#">About</a></li>
@@ -119,10 +119,10 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 
 ```javascript
 // including a hamburger
-// hiding our items to a humber in mobile version
+// hiding our items to a hamburger in mobile version
 <nav class="navbar navbar-default"> //navbar
 <div class="container">  //putting all the items in container
-  <div class="navbar-header"> //first item 
+  <div class="navbar-header"> //main item 
     // implementing the hamburger icon, must be put before the navbar header
     // pay attention to data-target attribute, the value we set to it is the items we're going to collapse 
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target-"#bs-nav-demo" aria-        expanded="false">
@@ -132,7 +132,7 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="#" class="navbar-header">Koffee</a>
+    <a href="#" class="navbar-header">Koffee</a>  //first item
   </div>
 //collapsible items start here
 <div class="collapse navbar-collapse" id="bs-nav-demo"> //whatever we put inside here will be collapsible by the burger, this is targetted by our burger component/icon, see id
