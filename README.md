@@ -44,7 +44,7 @@
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
 <code>
-```jsx
+```html
   <div class="container> //we're putting the jumbotron in a container that has auto margin to center
     <div class=""jumbotron>
      //Whatever we put here will be inside of the jumbotron
