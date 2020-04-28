@@ -67,7 +67,7 @@
 <h3>Forms</h3>
 
 ```javascript
-//.form-group and .form-control 
+//pay attention to .form-group and .form-control classes
 <form>
   <div class="form-group"> //we put every block in a form-group
    <label for="id">Email</label>
