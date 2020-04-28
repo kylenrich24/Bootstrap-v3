@@ -48,4 +48,10 @@
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
+<div class="container"
+<div class="jumbotron">
+//everything we put here will be in the jumbotron
+<h1>Hello There</h1>
+<button class="btn btn-success bn-lg">Click Me</button>
+</div>
 ```
