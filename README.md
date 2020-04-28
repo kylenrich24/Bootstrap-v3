@@ -97,5 +97,25 @@
 <br>
 <h3>Navbar</h3>
 
+```javascript
+<nav class="navbar navbar-default"> //navbar
+<div class="container">  //putting all the items in container
+  <div class="navbar-header"> //first item 
+    <a href="#" class="navbar-header">Koffee</a>
+  </div>
+  <ul class="nav navbar-nav"> //items
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right"> //items to the left
+    <li><a href="#">Sign In</a></li>
+    <li><a href="#">Sign Up</a></li>
+  </ul>
+</div>
+</nav>
+```
+
+To implement actions include the javascript cdn
+
 
 
