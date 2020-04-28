@@ -43,9 +43,20 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
+```html
+<h2>Example of code</h2>
+
 <pre>
-<div class="container> //we're putting the jumbotron in a container that has auto margin to center <div class=""jumbotron> //Whatever we put here will be inside of the jumbotron <h1>Hi There</h1> <button class="btn btn-success btn-lg">Learn More</button> </div> </div>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
 </pre>
+```
 
   
   
