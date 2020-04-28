@@ -43,12 +43,9 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
-```html
-<div class="container">
-    <div class="jumbotron">
-      //everything we put here will be in the jumbotron
-      <h1>Hello There</h1>
-      <button class="btn btn-success bn-lg">Click Me</button>
-    </div>
-  </div>
+
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 ```
