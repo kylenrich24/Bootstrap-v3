@@ -42,6 +42,7 @@
 <h3>Jumbotron</h3>
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
+<br>
 <pre>
 <code>
 "<div class="container"> //we're putting the jumbotron in a container, it has auto margin to center
