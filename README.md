@@ -38,8 +38,7 @@
 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+<button class="btn btn-danger btn-lg"></button
 ```
 
 
