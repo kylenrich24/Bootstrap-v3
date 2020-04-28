@@ -152,7 +152,47 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 
 <hr>
 
-##The Grid System
+<h2>The Grid System</h2>
+<p>Some consider that most people use Bootstrap for the Grid System. It acts like a skeleton of our entire application. It enables us to easily add structure and layout to our application. For instance we can say that we want our application to take up 100% of our screen, then we can also say that we want our components to take 25% of the screen and take 50% when we hit the mobile size.</p>
+<p>DOCS: https://getbootstrap.com/docs/3.4/css/#grid</p>
+<br>
+<p><strong>12</strong>. Every container in bootstrap can be divided into 12 different columns. Using the Grid System we can pick how many of those 12 units each of our elements should take up.  </p>
+<img href="https://www.bitdegree.org/learn/storage/media/images/bootstrap-grid-system.o.png" height="300" width="450"/>
+<p>Every time we want to use a Bootstrap grid, we use a container.</p>
+
+
+```javascript
+// Using a 50/50 Grid System
+<div class="container> //this is the same container that we have been using. It has auto margin to center
+  <div class="row">
+    <div class="col-lg-6">  //We're using 6 out of 12 - 50%
+      
+    </div>  
+    <div class="col-lg-6">  //We're using 6 out of 12 - 50%
+    
+    </div>  
+  </div>
+</div>
+```
+
+
+```javascript
+// Using a different layout 2/8/2 
+<div class="container> //this is the same container that we have been using. It has auto margin to center
+  <div class="row">
+    <div class="col-lg-2">  //We're using 2 out of 12 in this container
+      
+    </div>  
+    <div class="col-lg-8">  //We're using 8 out of 12 in this container
+      
+    </div> 
+    <div class="col-lg-2">  //We're using 2 out of 12 in this container
+    
+    </div>  
+  </div>
+</div>
+// We can designate these 12 units however we want
+```
 
 
 
