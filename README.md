@@ -43,22 +43,10 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
-```html
-<!-- **** Hero Section **** -->
-<div id="hero" class="jumbotron">
-  <div class="container">
-    <h1 class="hero-title" class="load-hidden">
-      Hi, my name is <span class="text-color-main">Your Name</span>
-      <br />
-      I'm the Unknow Developer.
-    </h1>
-    <p class="hero-cta" class="load-hidden">
-      <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-    </p>
-  </div>
-</div>
-<!-- /END Hero Section -->
-```
+<pre>
+Hi tehre
+</pre>
+
   
   
    
