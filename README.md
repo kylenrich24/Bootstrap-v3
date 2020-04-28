@@ -98,21 +98,21 @@
 <h3>Navbar</h3>
 
 ```javascript
-<nav class="navbar navbar-default"> //navbar
-<div class="container">  //putting all the items in container
-  <div class="navbar-header"> //main item 
-    <a href="#" class="navbar-header">Koffee</a> //first item
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+      <div class="navbar-collapse">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Home</a>
+          <a class="nav-item nav-link" href="#">About</a>
+        </div>
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Sign In</a>
+        <a class="nav-item nav-link" href="#">Sign Out</a>
+      </div>
   </div>
-  <ul class="nav navbar-nav"> //items
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-  <ul class="nav navbar-nav navbar-right"> //items to the left
-    <li><a href="#">Sign In</a></li>
-    <li><a href="#">Sign Up</a></li>
-  </ul>
-</div>
-</nav>
+ </nav>
 ```
 
 <img src="https://www.script-tutorials.com/wp-content/uploads/2015/01/navbar3-700x357.jpg" height=200px width=500px>
