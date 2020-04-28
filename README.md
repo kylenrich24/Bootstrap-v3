@@ -64,3 +64,14 @@
 <br>
 <br>
 <h3>Forms</h3>
+
+```javascript
+<div class="container"> //we put the jumbotron in a container that has auto margin to center
+  <div class="jumbotron">
+    //everything we put here will be in the jumbotron
+    <h1>Hello There</h1>
+    <button class="btn btn-success bn-lg">Click Me</button>
+   </div>
+</div>
+```
+
