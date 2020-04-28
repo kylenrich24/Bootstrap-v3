@@ -36,6 +36,14 @@
 <p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
   <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active<em>
 </p>
+    
+<br>
+<br>
+<h3>Jumbotron</h3>
+<img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
+<p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
+  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active<em>
+</p>
   
    
   
