@@ -43,7 +43,11 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
-`
+```bash
+  npm install
+  
+  npm start
+```
 
    <div class="container">
     <div class="jumbotron">
@@ -53,4 +57,3 @@
     </div>
   </div>
 
-`
