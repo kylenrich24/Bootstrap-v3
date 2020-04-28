@@ -150,5 +150,9 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 </div>
 ```
 
+<hr>
+
+#The Grid System
+
 
 
