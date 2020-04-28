@@ -33,9 +33,10 @@
 <hr>
 <br>
 <h3>Buttons</h3>
-<p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
-  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active</em>
-</p>
+<p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:</p>
+```javascript
+<button class="btn btn-danger btn-lg">Click Me</button>
+```
     
 <br>
 <br>
@@ -51,5 +52,6 @@
     //everything we put here will be in the jumbotron
     <h1>Hello There</h1>
     <button class="btn btn-success bn-lg">Click Me</button>
+   </div>
 </div>
 ```
