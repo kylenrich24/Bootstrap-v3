@@ -34,6 +34,11 @@
 <br>
 <h3>Buttons</h3>
 <p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:</p>
+<br>
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
 
     
