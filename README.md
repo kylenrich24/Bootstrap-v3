@@ -98,7 +98,7 @@
 <h3>Navbar</h3>
 
 ```javascript
- <nav class="navbar navbar-expand-lg navbar-light bg-light"> // makes our navbar
+ <nav class="navbar navbar-expand-lg navbar-light bg-light"> // makes our navbar, navbar items stack except lg
   <div class="container">  // makes sure all our items are in a center margin
     <a class="navbar-brand" href="#">Navbar</a>  // our main item
       <div class="navbar-collapse">  // everything in here will be our items
