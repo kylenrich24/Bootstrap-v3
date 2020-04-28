@@ -115,6 +115,8 @@
 </nav>
 ```
 
+<img src="https://www.script-tutorials.com/wp-content/uploads/2015/01/navbar3-700x357.jpg" height=400px width=700px>
+
 To implement actions/features include jquery cdn first and then the bootstrap javascript cdn because it relies on jquery. (This already done in <em>There are 2 ways to use Bootstrap</em>
 
 ```javascript
