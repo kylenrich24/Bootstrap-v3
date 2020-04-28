@@ -127,32 +127,37 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 ```javascript
 // including a hamburger
 // hiding our items to a hamburger in mobile version
-<nav class="navbar navbar-default"> //navbar
-<div class="container">  //putting all the items in container
-  <div class="navbar-header"> //main item 
-    // implementing the hamburger icon, must be put before the navbar header
-    // pay attention to data-target attribute, the value we set to it is the items we're going to collapse 
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target-"#bs-nav-demo" aria-        expanded="false">
-      // each span is just drawing the bars in our icon
-      <span class="sr-only">Toggle Navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rebeccapurple;">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+    >
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="#" class="navbar-header">Koffee</a>  //first item
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-right">
+        <li>
+          <a class="nav-link" href="#">Sign In</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Sign Out</a>
+        </li>
+      </ul>
+    </div>
   </div>
-//collapsible items start here
-<div class="collapse navbar-collapse" id="bs-nav-demo"> //whatever we put inside here will be collapsible by the burger, this is targetted by our burger component/icon, see id
-  // we're putting our items here
-  <ul class="nav navbar-nav"> //items
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-  <ul class="nav navbar-nav navbar-right"> //items to the left
-    <li><a href="#">Sign In</a></li>
-    <li><a href="#">Sign Up</a></li>
-  </ul>
-</div>
+</nav>
 ```
 
 <br>
