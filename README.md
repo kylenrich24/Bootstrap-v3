@@ -98,24 +98,29 @@
 <h3>Navbar</h3>
 
 ```javascript
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
-      <div class="navbar-collapse">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">Home</a>
-          <a class="nav-item nav-link" href="#">About</a>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light"> // makes our navbar
+  <div class="container">  // makes sure all our items are in a center margin
+    <a class="navbar-brand" href="#">Navbar</a>  // our main item
+      <div class="navbar-collapse">  // everything in here will be our items
+        <div class="navbar-nav">  // layouts our item properly
+          <a class="nav-item nav-link" href="#">Home</a>  //item
+          <a class="nav-item nav-link" href="#">About</a> //item
         </div>
       </div>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#">Sign In</a>
-        <a class="nav-item nav-link" href="#">Sign Out</a>
+      <div class="navbar-nav">  //layouts our item properly; not inside navbar-collapse; it will stick to the left side
+        <a class="nav-item nav-link" href="#">Sign In</a> //item
+        <a class="nav-item nav-link" href="#">Sign Out</a>  //item
       </div>
   </div>
  </nav>
 ```
 
+<br>
+<br>
+
 <img src="https://www.script-tutorials.com/wp-content/uploads/2015/01/navbar3-700x357.jpg" height=200px width=500px>
+
+<br>
 
 To implement actions/features include jquery cdn first and then the bootstrap javascript cdn because it relies on jquery. (This already done in <em>There are 2 ways to use Bootstrap</em>
 
