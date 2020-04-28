@@ -43,9 +43,11 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
-```
-
    <div class="container">
     <div class="jumbotron">
       //everything we put here will be in the jumbotron
