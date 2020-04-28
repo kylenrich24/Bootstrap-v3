@@ -38,7 +38,7 @@
 
 
 ```javascript
-<button class="btn btn-danger btn-lg"></button
+<a class="btn btn-danger btn-lg"></a>
 ```
 
 
