@@ -34,7 +34,7 @@
 <br>
 <h3>Buttons</h3>
 <p>We can use an <em>a</em>, <em>button</em> and <em>input</em> tag and apply the class:<br>
-  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active<em>
+  <em>btn  &nbsp;&nbsp; btn-success&nbsp;&nbsp; btn-xs &nbsp;&nbsp;active</em>
 </p>
     
 <br>
@@ -51,7 +51,7 @@
   </div>
 </div>
    </code></pre>
-</p>
+
   
    
   
