@@ -127,9 +127,11 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 ```javascript
 // including a hamburger
 // hiding our items to a hamburger in mobile version
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rebeccapurple;">
-  <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: red;"> //NAVBAR; stacks except in lg; white text(navbar-dark)
+  <div class="container"> // putting all our items in a container; has auto margin to center
+    <a class="navbar-brand" href="#">Navbar</a> // MAIN ITEM
+    // HAMBURGER ICON THAT TARGETS OUR ITEM TO COLLAPSE
     <button
       class="navbar-toggler"
       type="button
@@ -138,21 +140,22 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> // pur items; items collapsible to hamburger
+      <ul class="navbar-nav mr-auto"> //layouts our items properly to stack to the left; our first set of items
         <li>
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Home</a>  //ITEM
         </li>
         <li>
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a> //ITEM
         </li>
       </ul>
-      <ul class="navbar-nav navbar-right">
+      <ul class="navbar-nav navbar-right"> //layouts our items to the right; our second set of items
         <li>
-          <a class="nav-link" href="#">Sign In</a>
+          <a class="nav-link" href="#">Sign In</a>  //ITEM
         </li>
         <li>
-          <a class="nav-link" href="#">Sign Out</a>
+          <a class="nav-link" href="#">Sign Out</a> //ITEM
         </li>
       </ul>
     </div>
