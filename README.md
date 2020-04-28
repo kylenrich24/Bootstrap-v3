@@ -43,20 +43,13 @@
 <img src="https://css3menu.com/web-design/data/upload/2017/04/example-jumb.jpg" height=400px width=700px>
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
-```html
-<h2>Example of code</h2>
-
 <pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
+########<div class="container></div>
+########
+########
+########
+########
 </pre>
-```
 
   
   
