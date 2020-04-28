@@ -44,7 +44,7 @@
 <p>Jumbotron takes up 100% of whatever container it's inside of.</p>
 <br>
 ```
-   <div class="container">
+<div class="container">
     <div class="jumbotron">
       //everything we put here will be in the jumbotron
       <h1>Hello There</h1>
