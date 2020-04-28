@@ -67,7 +67,7 @@
 <h3>Forms</h3>
 
 ```javascript
-<!-- .form-group and .form-control --!>
+//.form-group and .form-control 
 <form>
   <div class="form-group"> //we put every block in a form-group
    <label for="id">Email</label>
@@ -79,7 +79,7 @@
   </div>
 </form>
 
-<!-- in-line form --!>
+// in-line form 
 <form class="in-line">  //gotta add this 
   <div class="form-group"> //we put every block in a form-group
     <label for="id">Email</label>
