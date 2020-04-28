@@ -160,7 +160,7 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 <p>Some consider that most people use Bootstrap for the Grid System. It acts like a skeleton of our entire application. It enables us to easily add structure and layout to our application. For instance we can say that we want our application to take up 100% of our screen, then we can also say that we want our components to take 25% of the screen and take 50% when we hit the mobile size.</p>
 <p>DOCS: https://getbootstrap.com/docs/3.4/css/#grid</p>
 <br>
-<p><strong>12</strong>. Every container in bootstrap can be divided into 12 different columns. Using the Grid System we can pick how many of those 12 units each of our elements should take up.  </p>
+<em><strong>12</em>. Every container in bootstrap can be divided into 12 different columns. Using the Grid System we can pick how many of those 12 units each of our elements should take up.  </p>
 
 <img src="https://miro.medium.com/max/2342/1*6frm0pq5VjPcc71EqH7cKw.png" height="300" width="550"/>
 
@@ -202,5 +202,45 @@ To implement actions/features include jquery cdn first and then the bootstrap ja
 // We can designate these 12 units however we want
 ```
 
+<h3>Making the Grid Responsive</h3>
+<p><strong>col-lg-6</strong> There are 4 sizes we can use. We can specify layout/ratios in each of these sizes. We have xs, sm, md, lg. </p>
 
 
+```javascript
+// making our layout responsive 
+// using 4 columns (3/12 units each container) in md to lg and 6 units (2 columns) in sm
+
+<div class="container> //this is the same container that we have been using. It has auto margin to center
+  <div class="row">
+    <div class="col-md-3 col-sm-6">  //6/12 units in sm; it will take up 50% of the tablet size
+      
+    </div>  
+    
+    <div class="col-md-3 col-sm-6">  //50% in sm
+      
+    </div> 
+    
+    <div class="col-md-3 col-sm-6">  // this will stack below because it has to take up 50% too
+    
+    </div>  
+    
+    <div class="col-md-3 col-sm-6">  //50% in sm
+    
+    </div>  
+  </div>
+</div>
+```
+<br>
+We can also nest grids. This means dividing our container further to another grid.
+
+```javascript
+<div class="col-md-3 col-sm-6">  //6/12 units in sm; it will take up 50% of the tablet size
+  <div class="row"> //nested grid
+    <div class="col-lg-6">  //50% column
+      
+    </div>  
+    <div class="col-lg-6">  // another column
+      
+    </div>  
+</div>  
+```
