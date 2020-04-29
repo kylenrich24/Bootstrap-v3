@@ -30,6 +30,7 @@
    </code></pre>
 <br><br<
 <p><strong>We can now start using Bootstrap components by adding classes to our elements</strong><p>
+  
 <hr>
 <br>
 <h3>Buttons</h3>
