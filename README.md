@@ -66,7 +66,7 @@
 <br>
 <h3>Forms</h3>
 
-```javascript
+```html
 //pay attention to .form-group and .form-control classes
 <form>
   <div class="form-group"> //we put every block in a form-group
@@ -97,7 +97,7 @@
 <br>
 <h3>Navbar</h3>
 
-```javascript
+```html
  <nav class="navbar navbar-expand-lg navbar-light bg-light"> // makes our navbar, navbar items stack except lg
   <div class="container">  // makes sure all our items are in a center margin
     <a class="navbar-brand" href="#">Navbar</a>  // our main item
@@ -124,7 +124,7 @@
 
 To implement actions/features include jquery cdn first and then the bootstrap javascript cdn because it relies on jquery. (This already done in <em>There are 2 ways to use Bootstrap</em>
 
-```javascript
+```html
 // including a hamburger
 // hiding our items to a hamburger in mobile version
 
